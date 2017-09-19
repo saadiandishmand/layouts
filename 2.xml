@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent" android:background="#3f9"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent" android:id="@+id/textView"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_width="match_parent" android:gravity="center"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName" android:textSize="18dp"
+         android:hint="Enter your username"
+        android:ems="10"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="118dp"
+        android:id="@+id/editText" />
+
+    <EditText
+        android:layout_width="match_parent" android:gravity="center"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword" android:textSize="18dp"
+        android:ems="10" android:hint="Enter your password"
+        android:layout_marginTop="26dp"
+        android:id="@+id/editText2"
+        android:layout_below="@+id/editText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#f43" android:padding="10dp" android:text="Log In!"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/editText2"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
